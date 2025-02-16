@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/providers/theme-provider"
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Instaautomate",
-  description: "Automate your Instagram DMs and comments for more engagement",
+  title: "Vectal-clone",
+  description: "Made the clone of Vectal",
 };
 
 export default function RootLayout({
