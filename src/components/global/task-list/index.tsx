@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
-import { Plus, CircleCheck, Cone, Circle } from 'lucide-react';
+import { Plus, CircleCheck, Cone, Circle, ListCheck } from 'lucide-react';
 import { ToolTip } from '@/components/global/task-list/tooltip';
 import { UserContextComponent } from '@/components/global/task-list/user-context';
 import { 
@@ -30,11 +30,9 @@ const tasks: Task[] = [
   { id: 3, text: 'Remember: The more tasks you have, the better Vectal gets.', completed: false },
 ];
 
-const TaskList: React.FC = () => {
-  
-
+const TaskList = () => {
   return (
-    <div className="h-full w-[60%] bg-[#282828] border-l border-gray-700 rounded-lg">
+    <div className="h-full w-full bg-[#282828] border-l border-gray-700 rounded-lg md:w-full md:mr-96 lg:mr-96 xl:w-[80%] xl:mr-96 sm:h-full sm:-mb-14">
       <div className="p-4 bg-white rounded-t-lg">
         <div className="flex items-center justify-between mt-3">
           <h2 className="text-black font-bold text-xl pl-5">vectal.ai</h2>

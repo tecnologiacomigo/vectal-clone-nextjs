@@ -56,7 +56,7 @@ const UserContextForm = ({setShowComponent}: {setShowComponent: (show: boolean) 
         </div>
         <textarea
           name="workDescription"
-          className="w-full p-4 bg-[#333333] text-white border border-gray-700 rounded-lg resize-none focus:outline-none focus:ring-1 focus:ring-gray-600"
+          className="w-full p-4 bg-[#333333] text-white border border-[#333333] rounded-lg resize-none focus:outline-none focus:ring-1 focus:ring-gray-500"
           rows={3}
           value={formData.workDescription}
           placeholder="Describe your work and business"
@@ -79,7 +79,7 @@ const UserContextForm = ({setShowComponent}: {setShowComponent: (show: boolean) 
         </div>
         <textarea
           name="shortTermFocus"
-          className="w-full p-4 bg-[#333333] text-white border border-gray-700 rounded-lg resize-none focus:outline-none focus:ring-1 focus:ring-gray-600"
+          className="w-full p-4 bg-[#333333] text-white border border-[#333333] rounded-lg resize-none focus:outline-none focus:ring-1 focus:ring-gray-500"
           rows={3}
           value={formData.shortTermFocus}
           placeholder="What are your short term focus?"
@@ -102,7 +102,7 @@ const UserContextForm = ({setShowComponent}: {setShowComponent: (show: boolean) 
         </div>
         <textarea
           name="longTermGoals"
-          className="w-full p-4 bg-[#333333] text-white border border-gray-700 rounded-lg resize-none focus:outline-none focus:ring-1 focus:ring-gray-600"
+          className="w-full p-4 bg-[#333333] text-white border border-[#333333] rounded-lg resize-none focus:outline-none focus:ring-1 focus:ring-gray-500"
           rows={3}
           value={formData.longTermGoals}
           placeholder="What are your long term goals?"
@@ -125,7 +125,7 @@ const UserContextForm = ({setShowComponent}: {setShowComponent: (show: boolean) 
         </div>
         <textarea
           name="sortingPreferences"
-          className="w-full p-4 bg-[#333333] text-white border border-gray-700 rounded-lg resize-none focus:outline-none focus:ring-1 focus:ring-gray-600"
+          className="w-full p-4 bg-[#333333] text-white border border-[#333333] rounded-lg resize-none focus:outline-none focus:ring-1 focus:ring-gray-600"
           rows={3}
           placeholder="How should your tasks be sorted?"
           value={formData.sortingPreferences}

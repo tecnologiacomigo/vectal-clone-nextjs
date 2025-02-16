@@ -45,13 +45,13 @@ export const PageWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
     <LayoutContext.Provider value={value}>
       <div className="flex flex-col w-full relative overflow-hidden">
-        <div className="ml-80 w-auto mt-7 rounded-lg h-full">
+        <div className="ml-80 w-auto mt-7 rounded-lg h-full xl:w-[80%] xl:mr-96 sm:w-full md:ml-10 md:w-[80%] md:mr-96 lg:w-[80%] lg:mr-96 lg:ml-10 xl:ml-80">
           {showTaskList && <TaskList />}
           {showNotes && <Notes items={timelineData} />}
         </div>
         {showTaskList && (
-          <div className="flex w-full mt-2 ml-80">
-            <p className="text-gray-400 text-xs mb-4 mt-2 ml-36">
+          <div className="w-full flex justify-center mt-2">
+            <p className="text-gray-400 text-xs mb-4 mt-2 text-center">
               Help us make Vectal better → feedback@vectal.ai
             </p>
           </div>

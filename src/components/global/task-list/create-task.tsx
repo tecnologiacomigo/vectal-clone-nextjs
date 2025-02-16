@@ -3,13 +3,7 @@ import { ToolTip } from "./tooltip"
 import { 
     AlertDialog, 
     AlertDialogTrigger, 
-    AlertDialogContent, 
-    AlertDialogHeader, 
-    AlertDialogTitle, 
-    AlertDialogDescription, 
-    AlertDialogFooter, 
-    AlertDialogCancel, 
-    AlertDialogAction } from "@/components/ui/alert-dialog"
+    } from "@/components/ui/alert-dialog"
 import { useState } from "react";
 import AddItemsComponent from "@/components/global/add-item";
 export const CreateTaskComponent = () => {

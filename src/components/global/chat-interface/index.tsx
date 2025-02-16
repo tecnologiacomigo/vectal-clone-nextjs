@@ -64,10 +64,10 @@ const ChatUI: React.FC = () => {
 
 
   return (
-    <div className="flex flex-col h-screen ml-0 pl-2 w-[55%] mx-auto bg-[#1E1E1E]">
-        <div>
-            <ChatInterfaceNavBar onClearChat={handelClearChat}/>
-        </div>
+    <div className="flex flex-col h-full w-full lg:w-[55%] mx-auto bg-[#1E1E1E]">
+      <div>
+        <ChatInterfaceNavBar onClearChat={handelClearChat}/>
+      </div>
       {/* Chat messages container */}
       <div className="flex-1 overflow-y-auto p-4">
         {messages.length === 0 ? (
